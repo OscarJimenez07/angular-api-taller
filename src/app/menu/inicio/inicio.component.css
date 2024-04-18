@@ -1,0 +1,23 @@
+div {
+    max-width: 800px;
+}
+
+/* Estilo para centrar la tabla */
+table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  table, th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+  }
+  
+  /* Estilo para el encabezado de la tabla (cabecera) */
+  th {
+    background-color: #f2f2f285; 
+    text-align: left; 
+  }
+  

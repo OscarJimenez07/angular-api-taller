@@ -1,0 +1,18 @@
+
+.active-link {
+    background-color: grey;
+    color: white;
+}
+.nav-tabs .nav-link {
+    color: #fff; 
+}
+
+.nav-tabs .nav-link:hover {
+    color: #ccc; 
+}
+
+.nav-tabs .nav-link.active-link {
+    color: black;
+}
+
+

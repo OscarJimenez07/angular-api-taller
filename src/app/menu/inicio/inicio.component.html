@@ -1,0 +1,20 @@
+<div style="text-align: center;">
+    <h2   class="bi bi-house-check-fill"> Api</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of data">
+                <td>{{i.id}}</td>
+                <td>{{i.title}}</td>
+                <td>{{i.body}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
