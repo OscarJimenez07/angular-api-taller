@@ -19,7 +19,6 @@ export class InicioComponent implements OnInit {
   setData() {
     this.apiService.getData().subscribe( data => {
       this.data = data;
-      console.log(this.data);
     })
   }
 
